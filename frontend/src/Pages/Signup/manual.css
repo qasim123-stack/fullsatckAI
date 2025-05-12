@@ -1,0 +1,139 @@
+.registration-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, white, #f0f0f0);
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-column {
+    width: 48%;
+  }
+  
+  h2 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  h3{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+
+  }
+  
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input[type="file"] {
+    border: none;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0b0b0b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #777e78;
+  }
+  
+  .toggle-label {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #57595b;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .registration-container {
+      flex-direction: column;
+    }
+  
+    .form-column {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  

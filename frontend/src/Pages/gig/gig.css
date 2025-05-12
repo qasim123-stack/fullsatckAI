@@ -1,0 +1,243 @@
+.service-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  
+  .main-content {
+    width: 100%;
+  }
+  
+  .service-header {
+    margin-bottom: 24px;
+  }
+  
+  .service-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .profile-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-name {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .fiverr-choice {
+    background: #000000;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .top-rated {
+    background: #dabf16;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .star {
+    color: #ffb33e;
+  }
+  
+  .queue-info {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .carousel {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+  
+  .nav-button {
+    background: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar {
+    width: 100%;
+  }
+  
+  .package-tabs {
+    display: flex;
+    border-bottom: 1px solid #e4e5e7;
+    margin-bottom: 24px;
+  }
+  
+  .package-tab {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .package-tab.active {
+    color: #222;
+    border-bottom: 2px solid #1dbf73;
+  }
+  
+  .package-content {
+    padding: 24px;
+    border: 1px solid #e4e5e7;
+    border-radius: 8px;
+  }
+  
+  .package-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .package-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .package-description {
+    color: #666;
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .delivery-info {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .delivery-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .continue-button {
+    width: 100%;
+    padding: 12px;
+    background: #080808;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  
+  .contact-button {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #e4e5e7;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .compare-link {
+    display: block;
+    text-align: center;
+    color: #1dbf73;
+    margin-top: 16px;
+    text-decoration: none;
+  }
+  
+  .whats-included {
+    margin-top: 24px;
+  }
+  
+  .whats-included-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color: #666;
+  }
+  .description-section {
+  margin-bottom: 24px; /* Add some bottom margin for spacing */
+}
+
+.description-title {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold;
+  margin-bottom: 12px; /* Add some bottom margin for spacing */
+}
+
+.description-content {
+  line-height: 1.6; /* Adjust line height as needed */
+  color: #333; /* Adjust text color as needed */
+
+}
+
+.description-content p { /*Style the paragraphs within the description*/
+  margin-bottom: 1rem; /* Add space between paragraphs */
+}
+
+  
+  

@@ -1,0 +1,193 @@
+.marketplace {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  
+  .breadcrumb {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+  }
+  
+  .breadcrumb span {
+    margin: 0 5px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .subtitle {
+    color: #666;
+    margin: 0 0 30px 0;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .budget-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .price-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .price-inputs input {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .apply-btn {
+    background-color: #0e0f0e;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apply-btn:hover {
+    background-color: #585d5b;
+  }
+  
+  .sort select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .artists-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .artist-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .artist-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .artist-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .artist-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .rating {
+    margin: 10px 0;
+  }
+  
+  .star {
+    color: #ddd;
+    font-size: 18px;
+  }
+  
+  .star.filled {
+    color: #ffb33e;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+  }
+  
+  .price {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .price span {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .price strong {
+    font-size: 18px;
+  }
+  
+  .heart-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #666;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .heart-btn:hover {
+    color: #ff4d4d;
+  }
+  
+  @media (max-width: 768px) {
+    .filters {
+      flex-direction: column;
+      gap: 20px;
+      align-items: stretch;
+    }
+  
+    .budget-filter {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .price-inputs {
+      flex-wrap: wrap;
+    }
+  
+    .artists-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  
