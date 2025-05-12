@@ -64,7 +64,7 @@ function App() {
         
         <Route path="/otpverification/:email" element={<Otpverification />}/>
         <Route path="/regerror" element={<Regerror />}/>
-        <route path="*" element={<h1>404 Not Found</h1>} />
+      
       
 
 
